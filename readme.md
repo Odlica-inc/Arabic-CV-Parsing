@@ -60,7 +60,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         response = requests.post(url, json=payload, headers=headers)
 
         print(response.json())
-        ```
+  ```
 - **Files: ["pdf", "docx", "doc"]**:
      ```
         import requests
@@ -93,7 +93,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         response = requests.post(url, json=payload, headers=headers)
 
         print(response.json())
-        ```  
+      ```  
 - **URL: ["pdf", "docx", "doc","png", "jpeg", "jpg"]**:
     ```
         import requests
@@ -129,7 +129,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         print(response.json())
 
 
-        ```  
+    ```  
 
 **Note that there is a limit for number of cv pages by 5, the user is responsible for the corruption if pages exceed the limit**
  
