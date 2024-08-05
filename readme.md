@@ -61,8 +61,9 @@ You can parse CVs with two different methods: by sending the file as a base64 st
 
         print(response.json())
   ```
+  
 - **Files: ["pdf", "docx", "doc"]**:
-     ```
+```
         import requests
         import base64
         import os
@@ -93,7 +94,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         response = requests.post(url, json=payload, headers=headers)
 
         print(response.json())
-      ```  
+```  
 - **URL: ["pdf", "docx", "doc","png", "jpeg", "jpg"]**:
     ```
         import requests
