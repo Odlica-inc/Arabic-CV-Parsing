@@ -31,7 +31,7 @@ Our CV parsing API achieves state-of-the-art accuracy in CV parsing and excels w
 2. POST `/parse` (Requires Authentication): return a dictionary of the parsed fields of the CV.
 You can parse CVs with two different methods: by sending the file as a base64 string or by providing a public download link. We support a wide range of file extensions, including PDF, DOC, DOCX, JPG, JPEG, and PNG.
 - **Image: ["png", "jpeg", "jpg"]**:
-  ```
+```
         import requests
         import base64
         import os
@@ -60,7 +60,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         response = requests.post(url, json=payload, headers=headers)
 
         print(response.json())
-  ```
+```
   
 - **Files: ["pdf", "docx", "doc"]**:
 ```
@@ -96,7 +96,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         print(response.json())
 ```  
 - **URL: ["pdf", "docx", "doc","png", "jpeg", "jpg"]**:
-    ```
+```
         import requests
         import json
         import os
@@ -130,7 +130,7 @@ You can parse CVs with two different methods: by sending the file as a base64 st
         print(response.json())
 
 
-    ```  
+```  
 
 **Note that there is a limit for number of cv pages by 5, the user is responsible for the corruption if pages exceed the limit**
  
