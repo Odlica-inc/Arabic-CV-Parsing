@@ -13,7 +13,7 @@ Our CV parsing API achieves state-of-the-art accuracy in CV parsing and excels w
 1. **Open the API through this link**: https://rapidapi.com/parsing-ai-parsing-ai-default/api/cv-parser
 
 #### Step 3: Subscribe to the API
-1. **Pricing**: Review the pricing plans available for the API. Some APIs offer free tiers, while others may require a paid subscription.
+1. **Pricing**: Review the pricing plans available for the API: https://rapidapi.com/parsing-ai-parsing-ai-default/api/cv-parser/pricing
 2. **Subscribe**: Click on the subscription plan that fits your needs. You may need to provide payment information if you choose a paid plan.
 
 #### Step 4: Obtain API Credentials
